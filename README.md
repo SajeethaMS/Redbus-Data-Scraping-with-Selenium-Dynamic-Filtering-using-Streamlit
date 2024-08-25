@@ -7,6 +7,7 @@ Automated Data Collection: Use Selenium to scrape data on bus routes, schedules,
 Data Storage: Store the scraped data in a structured SQL database for easy retrieval and analysis.
 Interactive Data Visualization: Develop a user-friendly Streamlit application to allow users to filter and visualize the collected data.
 Data-Driven Decision Making: Provide valuable insights for operational efficiency and strategic planning in the transportation industry.
+
 Business Use Cases
 The solution can be applied to various business scenarios, including:
 
@@ -14,6 +15,7 @@ Travel Aggregators: Provide real-time bus schedules and seat availability to cus
 Market Analysis: Analyze travel patterns and preferences to inform market research and strategic decisions.
 Customer Service: Improve user experience by offering customized travel options based on data insights.
 Competitor Analysis: Compare pricing and service levels with competitors to maintain a competitive edge.
+
 Technologies Used
 Python: Core programming language for scripting and data manipulation.
 Selenium: Web scraping tool for automated extraction of data from the Redbus website.
