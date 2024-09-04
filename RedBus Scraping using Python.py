@@ -142,16 +142,16 @@ def scrape_bus_routes(state_url, state_name, max_pages, path):
 
 # List of state URLs, names, and maximum pages to scrape
 states = [
- #   {"url": "https://www.redbus.in/online-booking/ksrtc-kerala/?utm_source=rtchometile", "name": "Kerala", "max_pages": 2},
- #   {"url": "https://www.redbus.in/online-booking/apsrtc/?utm_source=rtchometile", "name": "Andhra Pradesh", "max_pages": 4},
- #   {"url": "https://www.redbus.in/online-booking/tsrtc/?utm_source=rtchometile", "name": "Telangana" , "max_pages":3},
- #   {"url": "https://www.redbus.in/online-booking/ktcl/?utm_source=rtchometile", "name": "Kadamba" , "max_pages":4},
- #   {"url": "https://www.redbus.in/online-booking/rsrtc/?utm_source=rtchometile", "name": "Rajastan" , "max_pages":3},
- #   {"url": "https://www.redbus.in/online-booking/pepsu", "name": "Punjab" , "max_pages":3},
+    {"url": "https://www.redbus.in/online-booking/ksrtc-kerala/?utm_source=rtchometile", "name": "Kerala", "max_pages": 2},
+    {"url": "https://www.redbus.in/online-booking/apsrtc/?utm_source=rtchometile", "name": "Andhra Pradesh", "max_pages": 4},
+    {"url": "https://www.redbus.in/online-booking/tsrtc/?utm_source=rtchometile", "name": "Telangana" , "max_pages":3},
+    {"url": "https://www.redbus.in/online-booking/ktcl/?utm_source=rtchometile", "name": "Kadamba" , "max_pages":4},
+    {"url": "https://www.redbus.in/online-booking/rsrtc/?utm_source=rtchometile", "name": "Rajastan" , "max_pages":3},
+    {"url": "https://www.redbus.in/online-booking/pepsu", "name": "Punjab" , "max_pages":3},
     {"url": "https://www.redbus.in/online-booking/south-bengal-state-transport-corporation-sbstc/?utm_source=rtchometile", "name": "South Bengal" , "max_pages":5},
- #   {"url": "https://www.redbus.in/online-booking/north-bengal-state-transport-corporation", "name": "North Bengal" , "max_pages":5},
+    {"url": "https://www.redbus.in/online-booking/north-bengal-state-transport-corporation", "name": "North Bengal" , "max_pages":5},
     {"url": "https://www.redbus.in/online-booking/hrtc/?utm_source=rtchometile", "name": "Himachal" , "max_pages":5}
- #   {"url": "https://www.redbus.in/online-booking/uttar-pradesh-state-road-transport-corporation-upsrtc", "name": "Uttar Pradesh" , "max_pages":5}
+    {"url": "https://www.redbus.in/online-booking/uttar-pradesh-state-road-transport-corporation-upsrtc", "name": "Uttar Pradesh" , "max_pages":5}
     ]
 
 # XPATH to find route links and names
