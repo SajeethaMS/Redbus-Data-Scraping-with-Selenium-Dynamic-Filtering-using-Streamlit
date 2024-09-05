@@ -1,24 +1,35 @@
-# Redbus Data Scraping and Filtering with Streamlit Application
-Overview
-The Redbus Data Scraping and Filtering with Streamlit Application project aims to revolutionize the transportation industry by providing a comprehensive solution for collecting, analyzing, and visualizing bus travel data. This project leverages Selenium for web scraping to automate the extraction of detailed information from the Redbus website, including bus routes, schedules, prices, and seat availability. The data collected is stored in a structured SQL database, making it easily accessible for analysis and visualization through an interactive Streamlit application.
+Data-Scraping-with-Selenium-Dynamic-Filtering-using-Streamlit
 
-Project Goals
-Automated Data Collection: Use Selenium to scrape data on bus routes, schedules, prices, seat availability, and other relevant information from the Redbus website.
-Data Storage: Store the scraped data in a structured SQL database for easy retrieval and analysis.
-Interactive Data Visualization: Develop a user-friendly Streamlit application to allow users to filter and visualize the collected data.
-Data-Driven Decision Making: Provide valuable insights for operational efficiency and strategic planning in the transportation industry.
+Introduction:
+The 'Redbus Data Scraping and Filtering with Streamlit Application' aims to revolutionize the transportation industry by providing a comprehensive solution for collecting, analyzing, and visualizing bus travel data. By utilizing Selenium for web scraping, this project automates the extraction of detailed information from Redbus, including bus routes, schedules, prices, and seat availability. By streamlining data collection and providing powerful tools for data-driven decision-making, this project can significantly improve operational efficiency and strategic planning in the transportation industry.
 
-Business Use Cases
-The solution can be applied to various business scenarios, including:
+Domain:
+TRANSPORTATION
 
-Travel Aggregators: Provide real-time bus schedules and seat availability to customers, enhancing user experience and satisfaction.
-Market Analysis: Analyze travel patterns and preferences to inform market research and strategic decisions.
-Customer Service: Improve user experience by offering customized travel options based on data insights.
-Competitor Analysis: Compare pricing and service levels with competitors to maintain a competitive edge.
+SKILL-TAKEAWAY:
+Python scripting,Selenium,Data Collection,Data Management using SQL,Streamlit
 
-Technologies Used
-Python: Core programming language for scripting and data manipulation.
-Selenium: Web scraping tool for automated extraction of data from the Redbus website.
-SQL: Database for storing and managing the scraped data.
-Streamlit: Framework for building the interactive web application for data filtering and visualization.
-Pandas: Data analysis and manipulation library.
+TECHNOLOGY USED:
+Python 3.12.I
+MySQL 8.0
+Streamlit
+Selenium
+
+FEATURES OF APPLICATION:
+
+Retrive the Bus Information:
+Selenium is a powerful tool for automating web browsers, which is especially useful for web scraping tasks. If you want to retrieve bus details from RedBus, 
+you can use Selenium to automate the process of searching for buses and extracting the relevant information. This involves interacting with web elements 
+like input fields and buttons, waiting for the page to load, and extracting the desired details from the search results.
+
+Store data in database:
+The collected bus details data was transformed into pandas dataframes. Before that, a new database and tables were created using the MySQL connector. With the help of MySQL, the data was inserted into the respective tables. The database could be accessed and managed in the MySQL environment.
+
+web app - streamlit:
+With the help of Streamlit, you can create an interactive application similar to RedBus by designing a user-friendly interface that allows users to search for bus routes, view available buses, and get details like departure times and prices
+
+PACKAGES AND LIBRARIES:
+from selenium import webdriver
+import time
+import pandas as pd
+import mysql.connector
