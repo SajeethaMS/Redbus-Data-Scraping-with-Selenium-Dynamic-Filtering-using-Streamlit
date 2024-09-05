@@ -34,6 +34,9 @@ With the help of Streamlit, you can create an interactive application similar to
 
 **PACKAGES AND LIBRARIES:**
 from selenium import webdriver
+
 import time
+
 import pandas as pd
+
 import mysql.connector
