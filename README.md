@@ -19,6 +19,11 @@ MySQL 8.0
 Streamlit
 Selenium
 
+**PROJECT ARCHITECTURE:
+**
+
+Scraping (Selenium) → Data Storage (SQL) → Frontend (Streamlit)
+
 **FEATURES OF APPLICATION:**
 
 **Retrive the Bus Information:**
